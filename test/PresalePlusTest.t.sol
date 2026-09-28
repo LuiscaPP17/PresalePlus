@@ -28,7 +28,7 @@ contract PresalePlusTest is Test {
     PresalePlus presale;
     MockToken saleToken;
 
-    address deployer = vm.addr(1);
+    address deployer = vm.addr(0xA11CE);
     address user = vm.addr(2);
 
     address ethUsdPriceFeed = 0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612;
